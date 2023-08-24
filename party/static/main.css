@@ -1,0 +1,58 @@
+
+#banner{
+    background-image: url("../static/picture/yo.webp");
+    
+
+
+}
+
+#overlay{
+    background-color:rgba(3, 3, 32, 0.5);
+    
+
+}
+.nav{
+    margin-top:5px;
+    display:flex;
+    justify-content:center;
+    gap:130px;
+    margin-right:400px;
+}
+.marg{
+    margin-left: 400px;
+}
+.font{
+    margin-right:20px;
+    margin-top: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.anim{
+    animation-name:bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.yo{
+    /* border:2px solid blue; */
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding:40px;
+  
+} 
+
+.flow{
+    /* border:2px solid red; */
+    background-color: whitesmoke;
+    height:200px;
+     margin-top:20px; 
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px 2px rgb(78, 71, 71);
+    gap:20px;
+  
+}
+
+.flow:hover{
+   background-color:rgb(125, 243, 225);
+  
+}
